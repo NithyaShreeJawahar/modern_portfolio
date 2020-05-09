@@ -114,78 +114,76 @@ main {
 }
 
 // Work/Projects
+.container {
+  width: 100%;
+  background-color: #333;
+}
+
 .skills {
-  width: 500px;
-  margin: 60px auto;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
 }
-.skills li {
-  margin: 20px 0;
-}
-.bar {
-  background: #eece1a;
-  display: block;
-  height: 2px;
-  border: 1px solid #333;
-  border-radius: 3px;
-  overflow: hidden;
-  box-shadow: 0 0 10px #eece1a;
-}
-.bar span {
-  height: 2px;
-  float: left;
-  background: #eece1a;
-}
+
 .html {
   width: 90%;
-  animation: html 2s;
+  background-color: #eece1a;
 }
-.javascript {
-  width: 65%;
-  animation: javascript 2s;
+.css {
+  width: 70%;
+  background-color: #eece1a;
 }
-.python {
+.js {
   width: 80%;
-  animation: python 2s;
+  background-color: #eece1a;
 }
-.java {
+.php {
   width: 60%;
-  animation: java 2s;
+  background-color: #eece1a;
 }
-
-@keyframes html {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
+#codeconHTML {
+  width: 100%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #ea8564;
 }
-@keyframes javascript {
-  0% {
-    width: 0%;
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
   }
-  100% {
-    width: 90%;
-  }
-}
-@keyframes python {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
+  to {
+    width: 100%;
   }
 }
-@keyframes java {
-  0% {
-    width: 0%;
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
   }
-  100% {
-    width: 90%;
+  to {
+    width: 100%;
   }
 }
-
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
 // Contact Page
 .boxes {
   display: flex;
@@ -239,7 +237,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: darken($primary-color, 10);
+  background: #eece1a;
   color: set-text-color($primary-color);
   height: 60px;
 }
