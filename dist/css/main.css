@@ -183,7 +183,9 @@ main {
 
 .container {
   width: 100%;
-  background-color: #333; }
+  background-color: #333;
+  height: 50px;
+  position: absolute; }
 
 .skills {
   text-align: right;
@@ -207,35 +209,25 @@ main {
   width: 60%;
   background-color: #eece1a; }
 
-#codeconHTML {
-  width: 100%;
-  animation: Animate-HTML 4s;
-  -webkit-animation: Animate-HTML 4s;
-  -moz-animation: Animate-HTML 4s;
-  -o-animation: Animate-HTML 4s;
-  height: 50px;
-  position: absolute;
-  background-color: #ea8564; }
-
 @keyframes Animate-HTML {
   from {
     width: 10px; }
   to {
     width: 100%; } }
 
-@-webkit-keyframes Animate-HTML {
+@keyframes Animate-CSS {
   from {
     width: 10px; }
   to {
     width: 100%; } }
 
-@-moz-keyframes Animate-HTML {
+@keyframes Animate-JS {
   from {
     width: 10px; }
   to {
     width: 100%; } }
 
-@-o-keyframes Animate-HTML {
+@keyframes Animate-PHP {
   from {
     width: 10px; }
   to {
