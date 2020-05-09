@@ -12,20 +12,7 @@
     height: 3px;
     margin: 0 0 5px 0;
     background: rgb(253, 216, 7);
-    border-radius: 0.8rem;
     @include easeOut;
-  }
-  .btn-line.half {
-    width: 50%;
-  }
-  .btn-line.start {
-    transform-origin: right;
-    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
-  }
-  .btn-line.start {
-    align-self: flex-end;
-    transform-origin: left;
-    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   }
 
   // Rotate Into X With Menu Lines
