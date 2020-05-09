@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: black;
+  background: url("../img/background.jpg");
   color: #fff;
   height: 100%;
   margin: 0;
